@@ -1,0 +1,40 @@
+header{
+  background-color:white;
+  position:fixed;
+  top:0;
+}
+
+header nav{
+  margin-left:300px;
+  float:left;
+  margin-top:20px;
+}
+
+nav ul{
+  margin-top:50px;
+}
+nav ul li{
+  display:inline;
+  font-size:20px;
+  margin-right:20px;
+}
+
+nav ul li a{
+  font-style:normal;
+  color:black;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+
+figure{
+  margin-left:40px;
+  float:left;
+}
+
+figure h1{
+  margin-left:50px;
+}
+form{
+  margin-left: 400px;
+  margin-top:235px;
+}

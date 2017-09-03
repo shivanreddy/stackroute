@@ -1,0 +1,247 @@
+/*
+---->header part fixing 
+*/
+
+header{
+  background-color:white;
+  position:fixed;
+  top:0;
+}
+/*
+---->navigation part 
+*/
+/*
+---->floating nav next to logo
+*/
+header nav{
+  margin-left:411.5px;
+  float:right;
+  margin-top:20px;
+}
+/*
+---->fixing width of menu and shifting down
+*/
+nav ul{
+  width:670px;
+  margin-top:50px;
+}
+/*
+---->making li elements inline so as to 
+    look like menu 
+*/
+nav ul li{
+  display:inline;
+  font-size:20px;
+  margin-right:10px;
+}
+/*
+---->changing default style of a element 
+     and  change to uppercase and remove blue color
+*/
+nav ul li a{
+  font-style:normal;
+  color:black;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+/*
+---->appending with "|"" between menus 
+*/
+nav ul li:after{
+  margin-left:10px;
+  content:"|";
+  font-size:20px;
+}
+/*
+---->removing of "|" after last child which 
+      we donot want 
+*/
+nav ul li:last-child:after{
+ 
+  content:"";
+  font-size:20px;
+}
+/*
+---->for changing of color when we hover on 
+      menu elements
+*/
+nav ul li a:hover{
+  color:green;
+}
+/*
+---->logo and name styling 
+*/
+figure{
+  margin-left:40px;
+  float:left;
+}
+
+figure h1{
+  margin-left:50px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-shadow: 2px 2px grey;
+}
+/*
+---->end of header part of html page (fixed part)
+*/
+/*
+---->start of hero element style we should shift 
+     down since we use fixed and clearing previous 
+*/
+.bike{
+  margin-top:150px;
+  clear:both;  
+}
+/*starting of main content */
+.column1,.column2,.column3{
+  margin-top:10px;
+  background-color:#29634e;
+  border-width:5px;
+  height:350px;
+}
+.column1,.column2,.column3 p{
+  color:white;
+  font-family: 'Bellefair', serif;
+}
+
+.column1 img{
+  margin-left:100px;
+}
+
+.column2 img{
+  margin-left:100px;
+}
+
+.column3 img{
+  margin-left:100px;
+}
+
+.heading{
+  font-size:20px;
+  font-color:white;
+  font-style:bold;
+  margin-left:100px; 
+}
+
+/*
+---->starting of footer style
+*/
+footer{
+  margin-top:10px;
+  background-color:rgb(128,128,128);
+  height:300px;
+  clear:both;
+}
+/*
+---->this is to style company locations text 
+*/
+.location{
+  margin-left: 350px;
+  font-size:50px;
+  font-family: 'Roboto Mono';
+  color:white;
+}
+/*
+---->divide footer into two columns
+*/
+
+.footer1{
+  margin-top:20px;
+  margin-left:130px;
+  float:left;
+}
+
+.footer1 p{
+  font-size:50px;
+  font-family: 'Monoton', cursive;
+}
+
+.footer1 ul{
+  margin-top:5px;
+  list-style-type: none;
+}
+/*
+---->this is for spacing between li elements
+*/
+.footer1 ul li{
+  padding:5px 0px;
+}
+
+.footer1 ul a{
+  color:white;
+  font-size:20px;
+  font-family: 'Slabo 27px', serif;
+}
+
+.footer2{
+  margin-top:10px;
+  margin-left:150px;
+  width:700px;
+  float:left;
+}
+
+.footer2 div{
+  margin-top:10px;
+}
+
+.footer2 div a{
+  color: #d3d3d3;
+  font-size:20px;
+  font-family: 'Lateef', cursive;
+}
+
+/*
+---->starting of styling of copy rights part 
+*/
+.copy{
+  background-color:rgb(94,94,94);
+  height:40px;
+}
+
+.copy p{
+  margin-top:5px;
+  float:left;
+  font-family: 'Roboto Mono';
+}
+
+.icons{
+  float:right;
+}
+/*default styles of a,hr,form,fieldset taken from w3 schools*/
+a{
+  text-decoration:none;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+form{
+  border-width: 1px;
+  border-color: black;
+  margin:auto;
+  margin-top: 200px;
+
+}
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+    border-color: black;
+}
+legend { 
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+}
